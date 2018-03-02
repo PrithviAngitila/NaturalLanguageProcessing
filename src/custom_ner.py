@@ -45,9 +45,9 @@ print('\n')
 
 train_sentences=tagged_sents
 
-train_sentences=nltk.corpus.conll2000.chunked_sents('ctrain.txt',chunk_types=['CP','VH'])
+train_sentences=nltk.corpus.conll2000.chunked_sents('ctrain.txt',chunk_types=['CP','VH','Tech'])
 print(train_sentences[0])
-test_sentences=nltk.corpus.conll2000.chunked_sents('ctest.txt',chunk_types=['CP','VH'])
+test_sentences=nltk.corpus.conll2000.chunked_sents('ctest.txt',chunk_types=['CP','VH','Tech'])
 testsent="Bike is  a super fast computer Intelligence"
 
 
